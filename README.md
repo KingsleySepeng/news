@@ -1,32 +1,29 @@
-# news
-online news web app
-This app would allow internal users (e.g., journalists, employees, PR teams) to create and publish articles, reports, or updates for internal use or the public (e.g., news within the police department, healthcare facility, etc.).
+MVP 1: Article Creation and Publishing for Student Journalists
+Objective
+Allow student journalists to create, edit, and publish news articles, and enable readers to view published content.
 
-Functional Requirements:
-Article Creation and Editing:
+Key Features
+User Management
 
-WYSIWYG Editor: A rich text editor for creating and formatting articles with media (images, videos, etc.).
-Drafts and Autosave: Allow articles to be saved as drafts, with autosave functionality for preventing data loss.
-Version Control: Track changes to articles and allow users to revert to previous versions.
-Approval Workflow:
+Journalist Accounts: Registration and login for student journalists.
+Roles: Assign roles like Journalist and Admin.
+Article Management
 
-Editorial Workflow: Submit articles for review and approval before publishing. The system can include various approval stages depending on the role.
-Comments and Feedback: Allow reviewers or approvers to leave feedback on drafts or published articles.
-Publishing and Distribution:
+Create Articles: Journalists can write and submit articles with titles, content, images, and categories.
+Edit & Delete: Ability to edit or delete their own articles.
+Publish Articles: Submit articles for admin approval and publishing.
+Admin Dashboard
 
-Publish Articles: Once approved, articles can be published internally, sent via email newsletters, or posted on an intranet.
-Categories and Tags: Organize articles by categories (e.g., crime reports, public safety, healthcare updates) and use tags to improve searchability.
-User Roles and Permissions:
+Review Articles: Admins can review, approve, or reject submitted articles.
+Manage Users: Admins can manage journalist accounts.
+Public-Facing Interface
 
-Author: Can write, edit, and save articles.
-Editor: Can review, approve, or reject articles.
-Admin: Full control over content creation, review processes, and app settings.
-Search and Archiving:
+View Articles: Visitors can browse and read published articles.
+Categories & Search: Filter articles by category or search by keywords.
+Basic Analytics
 
-Article Search: Implement robust search functionality for users to find relevant articles using keywords, categories, tags, or dates.
-Article Archiving: Archived articles should be stored for historical reference and accessed easily when needed.
-Non-Functional Requirements:
-Security and Privacy: The app should secure sensitive information in articles, ensuring that only authorized users can access certain reports or documents.
-Real-Time Collaboration: Multiple users should be able to collaborate on articles in real-time.
-Mobile Friendly: Employees and users should be able to access the platform on mobile devices for convenience.
-Integration: Ability to integrate with existing internal communication tools (like Slack, email, etc.) and systems (such as CMS for the intranet).
+Article Views: Track the number of views for each article.
+User Stories
+As a student journalist, I want to write and submit articles so that I can contribute to the school’s news platform.
+As an admin, I want to review and approve articles to ensure content quality and accuracy.
+As a reader, I want to browse and read published news articles to stay informed.
